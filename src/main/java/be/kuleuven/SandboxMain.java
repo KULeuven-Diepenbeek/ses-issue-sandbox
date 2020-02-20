@@ -1,7 +1,11 @@
 package be.kuleuven;
 
 import be.kuleuven.sandbox.BucketOfWater;
+
 import be.kuleuven.sandbox.JellyFish;
+
+import be.kuleuven.sandbox.FishNet;
+
 import be.kuleuven.sandbox.SandCastle;
 
 import java.util.Arrays;
@@ -12,7 +16,11 @@ public class SandboxMain {
         var list = Arrays.asList(
                 new SandCastle(),
                 new BucketOfWater(),
-                new JellyFish()
+
+                new JellyFish(),
+
+                new FishNet()
+
         );
 
         System.out.println("A day at the sea in the sand: \n");

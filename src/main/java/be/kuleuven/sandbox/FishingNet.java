@@ -4,6 +4,6 @@ public class FishingNet implements Playable {
 
     @Override
     public void play() {
-        System.out.println("Look at my sand castle! Wow!");
+        System.out.println("A fishing net to catch some fish!");
     }
 }

@@ -11,7 +11,7 @@ public class Candy implements Playable {
 
     @Override
     public void play() {
-        System.out.println("some delicious candy!");
+        System.out.println("some delicious candy to eat!");
     }
 }
 >>>>>>> b7be7bccd54b29d20f50c1a183b994ece629be21

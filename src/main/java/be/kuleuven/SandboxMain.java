@@ -11,7 +11,8 @@ public class SandboxMain {
     public static void main(String[] args) {
         var list = Arrays.asList(
                 new SandCastle(),
-                new BucketOfWater()
+                new BucketOfWater(),
+                new Jellyfish()
         );
 
         System.out.println("A day at the sea in the sand: \n");

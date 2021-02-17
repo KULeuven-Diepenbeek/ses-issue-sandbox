@@ -11,6 +11,7 @@ public class SandboxMain {
     public static void main(String[] args) {
         var list = Arrays.asList(
                 new SandCastle(),
+				new candies(),
                 new BucketOfWater()
         );
 

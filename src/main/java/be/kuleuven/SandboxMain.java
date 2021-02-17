@@ -3,6 +3,7 @@ package be.kuleuven;
 import be.kuleuven.sandbox.BucketOfWater;
 import be.kuleuven.sandbox.SandCastle;
 
+import java.lang.String;
 import java.util.Arrays;
 
 public class SandboxMain {

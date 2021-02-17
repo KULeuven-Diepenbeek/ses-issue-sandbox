@@ -12,6 +12,7 @@ public class SandboxMain {
         var list = Arrays.asList(
                 new SandCastle(),
                 new BucketOfWater()
+
         );
 
         System.out.println("A day at the sea in the sand: \n");

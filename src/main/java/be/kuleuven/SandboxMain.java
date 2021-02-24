@@ -15,6 +15,7 @@ public class SandboxMain {
                 new SandCastle(),
                 new BucketOfWater(),
                 new Icecream(),
+                //ik ga voor meer ERRORS
                 new JellyFish()
         );
 

@@ -1,8 +1,6 @@
 package be.kuleuven;
 
-import be.kuleuven.sandbox.BucketOfWater;
-import be.kuleuven.sandbox.Candy;
-import be.kuleuven.sandbox.SandCastle;
+import be.kuleuven.sandbox.*;
 
 import java.lang.String;
 import java.util.Arrays;
@@ -13,7 +11,11 @@ public class SandboxMain {
         var list = Arrays.asList(
                 new SandCastle(),
                 new BucketOfWater(),
-                new Candy()
+                new Candy(),
+                new FishingNet(),
+                new IceCream(),
+                new Jellyfish(),
+                new Magazines()
 
         );
 

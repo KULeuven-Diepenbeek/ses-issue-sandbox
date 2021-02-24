@@ -5,6 +5,7 @@ import be.kuleuven.sandbox.Icecream;
 import be.kuleuven.sandbox.JellyFish;
 import be.kuleuven.sandbox.SandCastle;
 import be.kuleuven.sandbox.Candy;
+import be.kuleuven.sandbox.Water;
 
 import java.lang.String;
 import java.util.Arrays;
@@ -18,7 +19,7 @@ public class SandboxMain {
                 new Candy(),
                 new BucketOfWater(),
 
-                
+                new Water(),
                 new Icecream(),
                 //ik ga voor meer ERRORS
                 new JellyFish()

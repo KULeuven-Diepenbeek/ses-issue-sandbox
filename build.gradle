@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+group 'be.kuleuven'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}

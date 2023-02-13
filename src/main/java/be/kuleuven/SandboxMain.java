@@ -1,5 +1,6 @@
 package be.kuleuven;
 
+import be.kuleuven.sandbox.Haai;
 import be.kuleuven.sandbox.SandCastle;
 
 import java.lang.String;
@@ -9,7 +10,8 @@ public class SandboxMain {
 
     public static void main(String[] args) {
         var playList = Arrays.asList(
-                new SandCastle()
+                new SandCastle(),
+                new Haai()
         );
 
         System.out.println("A day at the sea in the sand: \n");

@@ -1,5 +1,6 @@
 package be.kuleuven;
 
+import be.kuleuven.sandbox.DikkeToerist;
 import be.kuleuven.sandbox.Haai;
 import be.kuleuven.sandbox.SandCastle;
 
@@ -11,7 +12,8 @@ public class SandboxMain {
     public static void main(String[] args) {
         var playList = Arrays.asList(
                 new SandCastle(),
-                new Haai()
+                new Haai(),
+                new DikkeToerist(false)
         );
 
         System.out.println("A day at the sea in the sand: \n");

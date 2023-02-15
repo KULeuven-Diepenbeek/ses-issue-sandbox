@@ -10,6 +10,7 @@ public class SandboxMain {
 
     public static void main(String[] args) {
         var playList = Arrays.asList(
+                new UFO()
                 new SandCastle(),
                 new Haai()
         );

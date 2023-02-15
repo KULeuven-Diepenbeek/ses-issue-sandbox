@@ -3,6 +3,11 @@ package be.kuleuven;
 import be.kuleuven.sandbox.DikkeToerist;
 import be.kuleuven.sandbox.Haai;
 import be.kuleuven.sandbox.SandCastle;
+import be.kuleuven.sandbox.Schelp;
+import be.kuleuven.sandbox.Zonnecreme;
+
+import be.kuleuven.sandbox.volleybal;
+
 
 import java.lang.String;
 import java.util.Arrays;
@@ -13,7 +18,10 @@ public class SandboxMain {
         var playList = Arrays.asList(
                 new SandCastle(),
                 new Haai(),
-                new DikkeToerist(false)
+                new DikkeToerist(false),
+                new Schelp(),
+                new Zonnecreme(),
+                new volleybal()
         );
 
         System.out.println("A day at the sea in the sand: \n");

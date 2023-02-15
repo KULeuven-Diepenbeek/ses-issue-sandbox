@@ -1,0 +1,13 @@
+package be.kuleuven.sandbox;
+
+public class PirateShip implements Playable {
+
+  @Override
+
+    public void play(){
+      system.out.println("help ik word beroofd")
+
+    }
+  
+
+}

@@ -11,7 +11,8 @@ public class SandboxMain {
     public static void main(String[] args) {
         var playList = Arrays.asList(
                 new SandCastle(),
-                new Haai()
+                new Haai(),
+				new Slide()
         );
 
         System.out.println("A day at the sea in the sand: \n");

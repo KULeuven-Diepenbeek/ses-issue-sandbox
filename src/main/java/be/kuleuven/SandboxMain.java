@@ -10,6 +10,7 @@ public class SandboxMain {
     public static void main(String[] args) {
         var playList = Arrays.asList(
                 new SandCastle()
+			new aapje()
         );
 
         System.out.println("A day at the sea in the sand: \n");

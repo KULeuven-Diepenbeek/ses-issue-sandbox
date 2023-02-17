@@ -10,15 +10,17 @@ import java.util.Arrays;
 public class SandboxMain {
 
     public static void main(String[] args) {
-        var playList = new ArrayList<Playable>();
-        playList.add(new SandCastle());
-        playList.add(new Haai());
-        playList.add(new Koelbox());
-        playList.add(new SES_Cursus());
-        playList.add(new DikkeToerist(false));
-        playList.add(new Schelp());
-        playList.add(new Zonnecreme());
-        playList.add(new volleybal());
+        var playList = Arrays.asList(
+                new SandCastle(),
+                new Haai(),
+                new SES_Cursus(),
+                new DikkeToerist(false),
+                new Schelp(),
+                new Zonnecreme(),
+                new volleybal(),
+                new Boek(),
+                new Koelbox()
+        );
 
         System.out.println("A day at the sea in the sand: \n");
 

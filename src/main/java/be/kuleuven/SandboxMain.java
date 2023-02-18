@@ -19,7 +19,8 @@ public class SandboxMain {
                 new Zonnecreme(),
                 new volleybal(),
                 new Boek(),
-                new Koelbox()
+                new Koelbox(),
+                new Test(),
         );
 
         System.out.println("A day at the sea in the sand: \n");

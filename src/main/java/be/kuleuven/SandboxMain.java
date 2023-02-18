@@ -20,7 +20,11 @@ public class SandboxMain {
                 new volleybal(),
                 new Boek(),
                 new Koelbox(),
+<<<<<<< HEAD
                 // dit is een opmerking om merge te testen. 
+=======
+                new Test(),
+>>>>>>> testbranch
         );
 
         System.out.println("A day at the sea in the sand: \n");
